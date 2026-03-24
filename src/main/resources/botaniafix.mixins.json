@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "refMap": "botaniafix.refmap.json",
+  "package": "com.drathos.botaniafix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ManaInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
