@@ -1,4 +1,4 @@
-package com.drathos.botaniafix;
+package com.gabri.botaniaslot;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * 
  * @author Sato
  */
-@Mod.EventBusSubscriber(modid = DrathosBotaniaFix.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = BotaniaSlot.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Config
 {
     private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();

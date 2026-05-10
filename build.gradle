@@ -110,8 +110,8 @@ minecraft {
 }
 
 mixin {
-    add sourceSets.main, "botaniafix.refmap.json"
-    config "botaniafix.mixins.json"
+    add sourceSets.main, "${mod_id}.refmap.json"
+    config "${mod_id}.mixins.json"
 
     debug.export = true
 }

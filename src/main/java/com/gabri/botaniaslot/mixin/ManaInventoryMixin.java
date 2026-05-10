@@ -1,4 +1,4 @@
-package com.drathos.botaniafix.mixin;
+package com.gabri.botaniaslot.mixin;
 
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;

@@ -1,4 +1,4 @@
-package com.drathos.botaniafix;
+package com.gabri.botaniaslot;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -12,19 +12,19 @@ import org.slf4j.Logger;
 import top.theillusivec4.curios.api.SlotTypeMessage;
 
 /**
- * Classe principal do mod Drathos-BotaniaFix.
+ * Classe principal do mod Botania Slot.
  * Focada exclusivamente na restrição de mana e integração com Curios.
  * 
  * @author Sato
  */
-@Mod(DrathosBotaniaFix.MODID)
+@Mod(BotaniaSlot.MODID)
 @SuppressWarnings("removal")
-public class DrathosBotaniaFix
+public class BotaniaSlot
 {
-    public static final String MODID = "drathos_botaniafix";
-    private static final Logger LOGGER = org.slf4j.LoggerFactory.getLogger("Drathos-BotaniaFix");
+    public static final String MODID = "botania_slots";
+    private static final Logger LOGGER = org.slf4j.LoggerFactory.getLogger("Botania-Slots");
 
-    public DrathosBotaniaFix(FMLJavaModLoadingContext context)
+    public BotaniaSlot(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
 
@@ -42,7 +42,7 @@ public class DrathosBotaniaFix
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("Drathos-BotaniaFix: Mod carregado com sucesso!");
+        LOGGER.info("Botania-Slot: Mod carregado com sucesso!");
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
